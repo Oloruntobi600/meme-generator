@@ -1,6 +1,7 @@
 module.exports = {
   mode: 'development',
   output: {
+      path: resolve(__dirname, 'public'),
     filename: '[name].pack.js'
   },
   resolve: {
