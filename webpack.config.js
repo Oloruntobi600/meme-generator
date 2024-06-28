@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',  // or 'production'
+  mode: 'production',  // or 'production'
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -28,4 +28,5 @@ module.exports = {
       },
     ],
   },
+  devtool: false, // Disable devtool for production
 };
